@@ -6,8 +6,6 @@ After installing this extension, the theme will be available in the dropdown men
 <br />
 <br />
 
-If you would like to **download the source**, you can find it [here on GitHub](https://github.com/MidnightSprucePine/MidnightSprucePine-VSCodeTheme).
-
 If you're interested in the **Visual Studio 2019 Theme**, you can find it [here on MarketPlace](https://marketplace.visualstudio.com/items?itemName=jasonhartsoe.midnightsprucepine100).
 
 <br />
