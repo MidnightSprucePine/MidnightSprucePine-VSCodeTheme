@@ -17,7 +17,7 @@ If you're interested in the **Visual Studio 2019 Theme**, you can find it [here 
 
 ### Image Previews
 
-**Welcome / Start Screen**
+**WELCOME / START SCREEN**
 ![welcome.png](images/welcome.png)
 
 **FULL PREVIEW**
