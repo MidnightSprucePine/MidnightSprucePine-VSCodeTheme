@@ -2,7 +2,7 @@
 .SYNOPSIS
 Provisions a example powershell function
 .EXAMPLE
-PS C:\> .\powershell.ps1 -Argument1 "hola soy un texto"
+PS C:\> .\powershell.ps1 -Argument1 "Hello World"
 #>
 [CmdletBinding()]
 param(
@@ -36,11 +36,11 @@ try {
     $temp = New-Object System.Object
     $temp | Add-Member -MemberType NoteProperty -Name "Title" -Value "Custom Object Title 1"
     $temp | Add-Member -MemberType NoteProperty -Name "Subject" -Value "Plan of action [Folio_ActionPlan]"
-    $temp | Add-Member -MemberType NoteProperty -Name "Body" -Value "<div>This s a note example, with lots of text</div>
+    $temp | Add-Member -MemberType NoteProperty -Name "Body" -Value "<div>This is a note example, with lots of text</div>
       <div> <br/>&#160;</div>
-      <div>It happens to be in html format, but is just text the property couldnt't know<br/></div>
+      <div>It is in html format.<br/></div>
       <div><br/>&#160;<br/></div>
-      <div>It's up for the one who uses me to render me correctly. <a href='/thePlanOfAction'>Or not.</a></div>"
+      <div>To render <a href='/thePlanOfAction'>OR not to render.</a></div>"
     $collectionWithItems.Add($temp) | Out-Null
     Write-Host "My collection has" $collectionWithItems.Count "item(s)" -ForegroundColor Green
 
@@ -58,7 +58,7 @@ try {
     $listitems = $list.GetItems($query);
     foreach($item in $listitems) {
       if($item -ne $null) {
-        Write-Host "There is an elmeent in the list, id" $item.ID
+        Write-Host "There is an elemeent in the list, id" $item.ID
       }
     }
 }
