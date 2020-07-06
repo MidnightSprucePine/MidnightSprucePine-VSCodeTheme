@@ -6,55 +6,60 @@ After installing this extension, the theme will be available in the dropdown men
 <br />
 <br />
 
+If you would like to **download the source**, you can find it [here on GitHub](https://github.com/MidnightSprucePine/MidnightSprucePine-VSCodeTheme).
+
 If you're interested in the **Visual Studio 2019 Theme**, you can find it [here on MarketPlace](https://marketplace.visualstudio.com/items?itemName=jasonhartsoe.midnightsprucepine100).
 
 <br />
 
-### Current Version 1.0.0  -Initial Release
-- First initial release<br />
+### Current Version 1.0.1
+- Includes TypeScript Color Updates<br />
+<br />
+
+*See the ChangeLog for previous version updates*
 <br />
 <br />
 
 ### Image Previews
 
-**WELCOME / START SCREEN**
-![welcome.png](images/welcome.png)
+**Welcome / Start Screen**
+![images/welcome.png](images/welcome.png)
 
 **FULL PREVIEW**
-![fullidepreview.png](images/fullidepreview.png)
+![images/fullidepreview.png](images/fullidepreview.png)
 
 **C#**
-![csharp.png](images/csharp.png)
+![images/csharp.png](images/csharp.png)
 
 **C++**
-![cpp.png](images/cpp.png)
+![images/cpp.png](images/cpp.png)
 
 **JAVASCRIPT**
-![js.png](images/js.png)
+![images/js.png](images/js.png)
 
 **JSON**
-![json.png](images/json.png)
+![images/json.png](images/json.png)
 
 **HTML**
-![html.png](images/html.png)
+![images/html.png](images/html.png)
 
 **CSS**
-![css.png](images/css.png)
+![images/css.png](images/css.png)
 
 **MARKDOWN**
-![markdown.png](images/markdown.png)
+![images/markdown.png](images/markdown.png)
 
 **JAVA**
-![java.png](images/java.png)
+![images/java.png](images/java.png)
 
 **PHP**
-![php.png](images/php.png)
+![images/php.png](images/php.png)
 
 **PYTHON**
-![python.png](images/python.png)
+![images/python.png](images/python.png)
 
 **POWERSHELL**
-![powershell.png](images/powershell.png)
+![images/powershell.png](images/powershell.png)
 
 <br />
 

@@ -2,13 +2,13 @@
     "name": "midnightsprucepine",
     "displayName": "Midnight Spruce Pine",
     "description": "Midnight Spruce Pine is an awesome dark color theme for Visual Studio Code",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "jasonhartsoe",
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
-    "type": "git",
-    "url": "https://github.com/MidnightSprucePine/MidnightSprucePine-VSCodeTheme"
-  },
+        "type": "git",
+        "url": "https://github.com/MidnightSprucePine/MidnightSprucePine-VSCodeTheme"
+    },
     "keywords": [
         "Theme",
         "Dark Theme",
@@ -17,14 +17,14 @@
         "Pine",
         "Midnight",
         "Accessible Theme"
-      ],
-      "scripts": {
+    ],
+    "scripts": {
         "publish": "vsce publish"
-      },
+    },
     "galleryBanner": {
         "color": "#061526",
         "theme": "dark"
-      },
+    },
     "engines": {
         "vscode": "^1.46.0"
     },

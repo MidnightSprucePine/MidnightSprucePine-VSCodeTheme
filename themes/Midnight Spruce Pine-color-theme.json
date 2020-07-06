@@ -375,6 +375,13 @@
       }
     },
     {
+      "name": "TS Support Constant Math",
+      "scope": ["support.constant.math.ts", "support.function.math.ts"],
+      "settings": {
+        "foreground": "#34CDFF"
+      }
+    },
+    {
       "name": "JS Support Constant Math",
       "scope": ["support.constant.math.js", "support.function.math.js"],
       "settings": {
@@ -605,8 +612,22 @@
       }
     },
     {
+      "name": "TypeScript Language This",
+      "scope": "variable.language.this.ts",
+      "settings": {
+        "foreground": "#34CDFF"
+      }
+    },
+    {
       "name": "TypeScript Other Property",
       "scope": "variable.other.property.tsx",
+      "settings": {
+        "foreground": "#EFF1F3"
+      }
+    },
+    {
+      "name": "TypeScript Other Property",
+      "scope": "variable.other.property.ts",
       "settings": {
         "foreground": "#EFF1F3"
       }
@@ -647,6 +668,13 @@
       }
     },
     {
+      "name": "TypeScript Console Class Function Call",
+      "scope": "meta.function-call.ts support.class.console.ts",
+      "settings": {
+        "foreground": "#EFF1F3"
+      }
+    },
+    {
       "name": "TypeScript Console Function Call",
       "scope": "meta.function-call.tsx support.function.console.tsx",
       "settings": {
@@ -654,8 +682,22 @@
       }
     },
     {
+      "name": "TypeScript Console Function Call",
+      "scope": "meta.function-call.ts support.function.console.ts",
+      "settings": {
+        "foreground": "#A3BE8C"
+      }
+    },
+    {
       "name": "TypeScript Arrow Function",
       "scope": "meta.arrow.tsx storage.type.function.arrow.tsx",
+      "settings": {
+        "foreground": "#EFF1F3"
+      }
+    },
+    {
+      "name": "TypeScript Arrow Function",
+      "scope": "meta.arrow.ts storage.type.function.arrow.ts",
       "settings": {
         "foreground": "#EFF1F3"
       }
@@ -671,6 +713,13 @@
     {
       "name": "JS Single Quote String",
       "scope": "string.quoted.single.js",
+      "settings": {
+        "foreground": "#B5F5F8"
+      }
+    },
+    {
+      "name": "TS Single Quote String",
+      "scope": "string.quoted.single.ts",
       "settings": {
         "foreground": "#B5F5F8"
       }
@@ -693,7 +742,7 @@
       "name": "Regex Escape Backslash",
       "scope": "constant.character.escape.backslash.regexp",
       "settings": {
-        "foreground": "#FF007F"
+        "foreground": "#81A1C1"
       }
     },
     {
@@ -735,7 +784,7 @@
       "name": "Regex Character Class",
       "scope": "punctuation.definition.character-class.regexp",
       "settings": {
-        "foreground": "#A19B7E"
+        "foreground": "#EBCB8B"
       }
     },
     {
@@ -802,6 +851,13 @@
       }
     },
     {
+      "name": "TypeScript Console Function Call",
+      "scope": "meta.function-call.ts support.function.ts",
+      "settings": {
+        "foreground": "#A3BE8C"
+      }
+    },
+    {
       "name": "JS Console Function",
       "scope": "support.function.console.js",
       "settings": {
@@ -811,6 +867,13 @@
     {
       "name": "JS Punctuation Statement Terminator",
       "scope": "punctuation.terminator.statement.js",
+      "settings": {
+        "foreground": "#EFF1F3"
+      }
+    },
+    {
+      "name": "TS Punctuation Statement Terminator",
+      "scope": "punctuation.terminator.statement.ts",
       "settings": {
         "foreground": "#EFF1F3"
       }
@@ -984,6 +1047,13 @@
     {
       "name": "Python Keyword Operator Compasison",
       "scope": "keyword.operator.comparison.python",
+      "settings": {
+        "foreground": "#EFF1F3"
+      }
+    },
+    {
+      "name": "TS Keyword Operator Compasison",
+      "scope": ["keyword.operator.comparison.ts", "keyword.operator.comparison.tsx"],
       "settings": {
         "foreground": "#EFF1F3"
       }
@@ -1579,6 +1649,13 @@
       }
     },
     {
+      "name": "TS Variable Property",
+      "scope": "support.variable.property.ts",
+      "settings": {
+        "foreground": "#34CDFF"
+      }
+    },
+    {
       "name": "Variable Property Other object property",
       "scope": ["variable.other.object.property"],
       "settings": {
@@ -1736,6 +1813,13 @@
       }
     },
     {
+      "name": "TypeScript Support Primitive Type",
+      "scope": ["support.type.primitive.ts"],
+      "settings": {
+        "foreground": "#34CDFF"
+      }
+    },
+    {
       "name": "JS Entity Name Function",
       "scope": "entity.name.function.js",
       "settings": {
@@ -1887,7 +1971,7 @@
       "name": "Support Variable Property",
       "scope": "support.variable.property",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#34CDFF"
       }
     },
     {
@@ -2637,6 +2721,13 @@
       }
     },
     {
+      "name": "Strings in TypeScript values",
+      "scope": "string.quoted.double.ts",
+      "settings": {
+        "foreground": "#B5F5F8"
+      }
+    },
+    {
       "name": "Strings in PHP values",
       "scope": "string.quoted.double.php",
       "settings": {
@@ -3055,7 +3146,7 @@
       "name": "TypeScript[React] Entity Name Types",
       "scope": ["entity.name.type.ts", "entity.name.type.tsx"],
       "settings": {
-        "foreground": "#ffcb8b"
+        "foreground": "#A3BE8C"
       }
     },
     {
@@ -3088,6 +3179,13 @@
       }
     },
     {
+      "name": "TypeScript[React] Import/Export Punctuations",
+      "scope": ["punctuation.definition.block.ts"],
+      "settings": {
+        "foreground": "#EFF1F3"
+      }
+    },
+    {
       "name": "JS Punctuation Definition Block",
       "scope": "punctuation.definition.block.js",
       "settings": {
@@ -3097,6 +3195,13 @@
     {
       "name": "JS Keyword Operators Logical",
       "scope": "keyword.operator.logical.js",
+      "settings": {
+        "foreground": "#EFF1F3"
+      }
+    },
+    {
+      "name": "TS Keyword Operators Logical",
+      "scope": "keyword.operator.logical.ts",
       "settings": {
         "foreground": "#EFF1F3"
       }
@@ -3221,6 +3326,13 @@
         "foreground": "#EFF1F3"
       }
     },
+    {
+      "name": "TypeScript Classes",
+      "scope": "meta.class entity.name.type.class.ts",
+      "settings": {
+        "foreground": "#EFF1F3"
+      }
+    },
     // {
     //   "name": "TypeScript Entity Name Type",
     //   "scope": ["entity.name.type.tsx", "entity.name.type.module.tsx"],
@@ -3228,6 +3340,13 @@
     //     "foreground": "#EFF1F3"
     //   }
     // },
+    {
+      "name": "TypeScript Entity Name Type Module",
+      "scope": ["entity.name.type.module.ts"],
+      "settings": {
+        "foreground": "#EFF1F3"
+      }
+    },
     {
       "name": "TypeScript Entity Name Annotation Type",
       "scope": "meta.type.annotation.tsx entity.name.type.tsx",
