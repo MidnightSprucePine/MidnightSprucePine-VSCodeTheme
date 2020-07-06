@@ -4,7 +4,7 @@ All notable changes to the "MidnightSprucePine" extension will be documented in 
 
 <!-- ## [Unreleased] -->
 
-## [1.0.1] - 2020-07-05
+## [1.0.1] - 2020-07-05  (Current Version)
 - Updated TypeScript Colors
     - Tan to Green
     - Fixed String Colors
